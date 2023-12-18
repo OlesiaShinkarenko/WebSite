@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+.font-Muli{
+  font-family: "Muli";
+  font-weight: normal;
+}
+.font-Muli-Bold{
+  font-family: "Muli";
+  font-weight: bold;
+}
+
+.font-Muli-Light{
+  font-family: "Muli";
+  font-weight: 300;
+}
+
+.font-Muli-SemiBold{
+  font-family: "Muli";
+  font-weight: 600;
+}
+.font-Mulish-Bold{
+  font-family: "Mulish";
+  font-weight: bold;
+}
