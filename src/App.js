@@ -1,12 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './Header.js';
 
 function App() {
   return (
     <article itemscope itemtype="http://schema.org/BlogPosting">
-    <header>
-     <p className='font-Mulish-Bold' itemprop="headline">HealthCare</p>
-    </header>
+   <Header/>
    </article>
   );
 }
