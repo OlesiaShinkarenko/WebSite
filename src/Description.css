@@ -1,0 +1,51 @@
+section{
+    margin-left:10%;
+    margin-right:10%;
+}
+
+
+.Description{
+    display: flex;
+    justify-content: space-between;
+}
+
+.TextDesc h1{
+    font-family: "Muli";
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.TextDesc button{
+    border-radius: 55px;
+    border: 0px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: Muli;
+    font-size: 18px;
+    margin-top: 48px;
+    font-weight: 700;
+    padding-right: 40px;
+    color: aliceblue;
+    background: #458FF6;
+}
+
+.TextDesc h2{
+    font-family: "Muli";
+    font-weight: 300;
+    font-size: 21px;
+    margin-top: 25px;
+    color: #7D7987;
+}
+
+.TextDesc {
+       display: inline;
+       margin-top: 10%;
+       margin-right: 10%;
+}
+
+
+
+.image{
+    display: inline;
+}
