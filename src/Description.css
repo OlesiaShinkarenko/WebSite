@@ -15,6 +15,10 @@ section{
     font-size: 48px;
 }
 
+.TextDesc button:focus{
+    background: var(--button-hover-color);
+}
+
 .TextDesc button{
     border-radius: 55px;
     border: 0px;
