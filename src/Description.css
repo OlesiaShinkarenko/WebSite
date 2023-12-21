@@ -5,6 +5,7 @@ section{
 
 
 .Description{
+    height: 100vh;
     display: flex;
     justify-content: space-between;
 }
@@ -25,7 +26,7 @@ section{
     padding-left: 40px;
     padding-top: 20px;
     padding-bottom: 20px;
-    font-family: Muli;
+    font-family: "Muli";
     font-size: 18px;
     margin-top: 48px;
     font-weight: 700;
@@ -52,4 +53,6 @@ section{
 
 .image{
     display: inline;
+    width: 50%;
+    height: 70%;
 }

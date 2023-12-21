@@ -1,0 +1,27 @@
+
+.Services{
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid{
+    display: grid;
+}
+.Our {
+    font-family: "Muli";
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.Services .divider{
+     border-bottom: 1px solid  #000;
+     width: 5%;
+}
+.ServiceDesc{
+    color:var(--gray-color);
+    font-family: "Muli";
+    font-size: 18px;
+    font-weight: 300;
+}
