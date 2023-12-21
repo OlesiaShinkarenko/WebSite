@@ -34,7 +34,7 @@ p{
     font-family: "Muli";
     text-decoration: none;
     width: auto;
-    color: #1F1534;
+    color: var(--header-color);
     margin-left: 40px;
     font-size: 18px;
     font-weight: 400;
@@ -42,5 +42,4 @@ p{
   
   .header nav ul li a.home{
     font-weight: bold;
-    color: black;
   }

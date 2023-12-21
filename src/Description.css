@@ -26,8 +26,8 @@ section{
     margin-top: 48px;
     font-weight: 700;
     padding-right: 40px;
-    color: aliceblue;
-    background: #458FF6;
+    color: var(--button-color);
+    background: var(--background-color);
 }
 
 .TextDesc h2{
@@ -35,7 +35,7 @@ section{
     font-weight: 300;
     font-size: 21px;
     margin-top: 25px;
-    color: #7D7987;
+    color: var(--gray-color);
 }
 
 .TextDesc {
