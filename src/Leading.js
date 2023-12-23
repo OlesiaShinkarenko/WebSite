@@ -1,5 +1,4 @@
 import './Leading.css';
-import Divider from './Divider.js';
 import Button from './Button.js';
 import image from './images/leading.png';
 

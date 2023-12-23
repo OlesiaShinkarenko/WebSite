@@ -4,6 +4,7 @@ import './color.css';
 import Description from './Description.js';
 import Services from './Services.js';
 import Leading from './Leading.js';
+import Download from './Download.js';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
     <Description/>
     <Services/>
     <Leading/>
+    <Download/>
    </main>
    </article>
   );

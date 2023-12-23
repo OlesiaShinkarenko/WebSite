@@ -1,0 +1,12 @@
+.Download{
+    height: 100vh;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Download .image{
+    display: inline;
+    width: 50%;
+    height: 70%;
+}

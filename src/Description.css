@@ -1,11 +1,11 @@
 section{
     margin-left:10%;
     margin-right:10%;
+    height: 100vh;
 }
 
 
 .Description{
-    height: 100vh;
     text-align: left;
     display: flex;
     justify-content: space-between;
