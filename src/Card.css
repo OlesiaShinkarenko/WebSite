@@ -1,23 +1,23 @@
 .container{
     border-radius: 20px;
-    box-shadow: 0px 30px 40px -20px var(--gray-color);
+    box-shadow: 10px 40px 50px 0px var(--gray-color);
     padding: 30px;
     text-align: left;
     display: inline-block;
-    max-width: 20%;
-    max-height: 30%;
-    margin: 20px;  
+    width: 20%;
+    height: 30%;
 }
 
 .container h1{
     text-align: left;
     font-family: "Muli";
-    display: inline-block;
+    display: block;
     font-size: 24px;
     font-weight: 700;
 }
 .container body{
     text-align: left;
+    display: block;
     color: var(--gray-color);
     font-family: "Muli";
     font-size: 16px;
@@ -25,6 +25,8 @@
 }
 .container .image{
     display:block;
-    width: 15%;
-    height: 15%;
+    height: auto;
+    max-height: 250px;
+    width: auto;
+    max-width: 250px;
 }

@@ -7,12 +7,13 @@ import details from './images/details.svg';
 import care from './images/care.svg';
 import tracking from './images/tracking.svg';
 import Button from './Button.js';
+import Divider from './Divider.js';
 
 function Services(){
     return(
         <section class="Services">
             <p class="Our">Our services</p>
-            <hr class="divider"></hr>
+           <Divider/>
             <p class="ServiceDesc">We provide to you the best choiches for you. Adjust it to your health needs and make sure your undergo treatment with our highly qualified doctors you can consult with us which type of service is suitable for your health</p>
             <ul class="gridCard">
                 <Card image={search} title ={"Search doctor"} description={"Choose your doctor from thousands of specialist, general, and trusted hospitals"} />

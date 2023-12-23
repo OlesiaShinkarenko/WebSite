@@ -7,9 +7,13 @@
     font-family: "Muli";
     font-size: 18px;
     border-color: var(--background-color);
-    margin-top: 48px;
     font-weight: 700;
     padding-right: 40px;
     color: var(--background-color);
     background: var(--button-color);
+    margin-bottom: 48px;
+}
+
+.OutlinedButton:focus{
+    background-color: var(--gray-color);
 }

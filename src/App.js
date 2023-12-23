@@ -3,6 +3,7 @@ import Header from './Header.js';
 import './color.css';
 import Description from './Description.js';
 import Services from './Services.js';
+import Leading from './Leading.js';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
    <main>
     <Description/>
     <Services/>
+    <Leading/>
    </main>
    </article>
   );
