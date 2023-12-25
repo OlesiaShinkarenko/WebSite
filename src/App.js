@@ -5,6 +5,8 @@ import Description from './Description.js';
 import Services from './Services.js';
 import Leading from './Leading.js';
 import Download from './Download.js';
+import Review from './review/Review.js';
+import profile from './images/profile.png';
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
     <Services/>
     <Leading/>
     <Download/>
+    <Review profile={profile}/>
    </main>
    </article>
   );
