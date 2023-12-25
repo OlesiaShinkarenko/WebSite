@@ -1,0 +1,32 @@
+.container{
+    border-radius: 20px;
+    box-shadow: 10px 40px 50px 0px var(--gray-color);
+    padding: 30px;
+    text-align: left;
+    display: inline-block;
+    width: 20%;
+    height: 30%;
+}
+
+.container h1{
+    text-align: left;
+    font-family: "Muli";
+    display: block;
+    font-size: 24px;
+    font-weight: 700;
+}
+.container body{
+    text-align: left;
+    display: block;
+    color: var(--gray-color);
+    font-family: "Muli";
+    font-size: 16px;
+    font-weight: 300;
+}
+.container .image{
+    display:block;
+    height: auto;
+    max-height: 250px;
+    width: auto;
+    max-width: 250px;
+}

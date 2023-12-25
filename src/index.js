@@ -3,6 +3,11 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import './fonts/Muli.ttf';
+import './fonts/Muli-Bold.ttf';
+import './fonts/Muli-Light.ttf';
+import './fonts/Muli-SemiBold.ttf';
+import './fonts/mulish-bold.ttf';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

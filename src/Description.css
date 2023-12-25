@@ -1,0 +1,61 @@
+section{
+    margin-left:10%;
+    margin-right:10%;
+    height: 100vh;
+}
+
+
+.Description{
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+
+.TextDesc h1{
+    font-family: "Muli";
+    font-weight: 700;
+    display: block;
+    font-size: 48px;
+}
+
+.Description  .TextDesc button:focus{
+    background: var(--button-hover-color);
+}
+
+.Description .TextDesc button{
+    border-radius: 55px;
+    border: 0px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: "Muli";
+    font-size: 18px;
+    margin-top: 48px;
+    font-weight: 700;
+    padding-right: 40px;
+    color: var(--button-color);
+    background: var(--background-color);
+}
+
+.TextDesc h2{
+    font-family: "Muli";
+    font-weight: 300;
+    font-size: 21px;
+    display: block;
+    margin-top: 25px;
+    color: var(--gray-color);
+}
+
+.TextDesc {
+       display: inline;
+       margin-top: 10%;
+       margin-right: 10%;
+}
+
+
+
+.Description .image{
+    display: inline;
+    width: 50%;
+    height: 70%;
+}

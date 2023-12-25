@@ -1,0 +1,45 @@
+p{
+    line-height: 35px;
+  }
+  .logo{
+    vertical-align:middle;
+    display: inline;
+  }
+  h1{
+    vertical-align:middle;
+    margin-left: 12px;
+    font-family: "Mulish";
+    font-weight: bold;
+    font-size: 24px;
+    display: inline;
+  }
+  .header{
+    margin-left:10%;
+    margin-right:10%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  li {
+    display: inline;
+    margin-right: 26px;
+  }
+  
+  ul {
+    position: relative;
+    top: 5px;
+  }
+  
+  a {
+    font-family: "Muli";
+    text-decoration: none;
+    width: auto;
+    color: var(--header-color);
+    margin-left: 40px;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  
+  .header nav ul li a.home{
+    font-weight: bold;
+  }
